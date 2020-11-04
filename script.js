@@ -6,7 +6,7 @@ const changeBackgroundButton = document.getElementById(
 
 changeBackgroundButton.addEventListener(
   "click",
-  () => (changeBackgroundButton.style.backgroundColor = getRandomColor())
+  () => changeBackgroundButton.style.backgroundColor = getRandomColor()
 );
 
 getRandomColor = () => {
